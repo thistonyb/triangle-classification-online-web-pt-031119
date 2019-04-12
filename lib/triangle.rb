@@ -7,16 +7,16 @@ class Triangle
     @length_three = length_three
   end
 
-  def kind(triangle)
-    if triange.class != Triangle
+  def kind
+    if self.class != Triangle
       begin
         raise TriangleError
       rescue TriangleError => error
         puts error.message
       end
-    elsif triangle.is_equilateral?
+    elsif self.is_equilateral?
       return :equilateral
-    elsif triangle.is_isosceles?
+    elsif self.is_isosceles?
       return :isosceles
     else
       return :scalene
@@ -31,6 +31,7 @@ class Triangle
     if @length_one == @length_two || @length_one == @lenght_three || @length_two == @lenght_three
   end
 
+  
 
 
   class TriangleError < StandardError
