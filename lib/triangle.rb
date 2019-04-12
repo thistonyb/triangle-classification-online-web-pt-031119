@@ -20,6 +20,7 @@ class Triangle
       return :isosceles
     else
       return :scalene
+    end
   end
 
   def is_triangle?
