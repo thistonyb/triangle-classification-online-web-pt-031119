@@ -8,7 +8,7 @@ class Triangle
   end
 
   def kind
-    if self.
+    if self.is_triangle? == false
       begin
         raise TriangleError
       rescue TriangleError => error
