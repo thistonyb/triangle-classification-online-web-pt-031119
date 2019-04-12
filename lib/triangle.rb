@@ -13,11 +13,11 @@ class Triangle
   end
 
   def is_equilateral?
-    if self.@length_one == self.@length_two && self.@length_two == self.@length_three
+    if @length_one == @length_two && @length_two == @length_three
   end
 
-  def is_isosceles?
-
+  def is_isosceles? #Has to be called after equilateral.
+    if self.@length_one == self.@length
   end
 
   class TriangleError < StandardError
