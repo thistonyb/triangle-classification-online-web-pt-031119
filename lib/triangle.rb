@@ -7,7 +7,13 @@ class Triangle
     @length_three = length_three
   end
 
-  def kind
+  def kind(triangle)
+
+
+  end
+
+  def is_equilateral?
+    if self.@length_one == self.@length_two && self.@length_two == self.@length_three
 
   end
 
