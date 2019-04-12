@@ -7,5 +7,5 @@ class Triangle
     @length_three = length_three
   end
 
-  
+
 end
