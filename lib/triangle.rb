@@ -28,8 +28,7 @@ class Triangle
     if sorted_sides[0] <= 0
       return false
     end
-    if sorted_sides[0] + sorted_sides[1] >= sorted_sides[2]
-
+    return sorted_sides[0] + sorted_sides[1] > sorted_sides[2]    
   end
 
   def is_equilateral?
