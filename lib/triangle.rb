@@ -32,7 +32,7 @@ class Triangle
   end
 
   def is_equilateral?
-    return @length_one == @length_two && @length_two == @length_three    
+    return @length_one == @length_two && @length_two == @length_three
   end
 
   #Has to be called after equilateral.
