@@ -22,6 +22,16 @@ class Triangle
       return :scalene
   end
 
+  def is_triangle?
+    side_array = [@length_one, @length_two, @length_three]
+    sorted_sides = side_array.sort
+    if sorted_sides[0] <= 0
+      return false
+    end
+    if sorted_sides[0] + sorted_sides[1] >= sorted_sides[2]
+
+  end
+
   def is_equilateral?
     if @length_one == @length_two && @length_two == @length_three
   end
