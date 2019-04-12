@@ -40,9 +40,6 @@ class Triangle
     return @length_one == @length_two || @length_one == @lenght_three || @length_two == @lenght_three
   end
 
-
-
-
   class TriangleError < StandardError
 
   end
