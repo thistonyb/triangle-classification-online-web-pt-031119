@@ -34,7 +34,7 @@ class Triangle
 
   #Has to be called after equilateral.
   def is_isosceles?
-    return @length_one == @length_two || @length_one == @lenght_three || @length_two == @lenght_three
+    return @length_one == @length_two || @length_one == @length_three || @length_two == @lenght_three
   end
 
   class TriangleError < StandardError
