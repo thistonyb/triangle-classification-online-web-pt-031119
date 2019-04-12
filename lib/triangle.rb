@@ -17,7 +17,7 @@ class Triangle
   end
 
   def is_isosceles? #Has to be called after equilateral.
-    if @length_one == @length
+    if @length_one == @length_two || @length_one == @lenght_three || @length_two == @lenght_three
   end
 
   class TriangleError < StandardError
