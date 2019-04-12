@@ -9,7 +9,7 @@ class Triangle
 
   def kind
     if self.is_triangle? == false
-      raise TriangleError "this is not a triangle"
+      raise TriangleError
     elsif self.is_equilateral?
       return :equilateral
     elsif self.is_isosceles?
